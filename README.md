@@ -1,1 +1,3 @@
-# grafana_pipeline
+Откройте браузер, введите в адресную строку: http://127.0.0.1:8080/. Если вы всё сделали правильно, появится окно авторизации в adminer. Введите реквизиты: сервер базы — db, имя базы — monitoring, имя пользователя — grafana, пароль — 123456. Когда авторизуетесь, убедитесь, что таблица metrics существует и заполнена данными: Откройте новую вкладку браузера, введите адрес: http://127.0.0.1:3000/. Откроется окно авторизации Grafana. Введите логин и пароль: admin, admin (по умолчанию) В интерфейсе Grafana добавьте новый источник данных MySQL
+
+Open browser, input http://127.0.0.1:8080/. If you do everything correct, you see authorization window. Input base server - db, base's name - monitoring, user name - grafana, pass - 123456 Open new tab, input http://127.0.0.1:3000. You see authorization window Grafana. Login admin, pass admin. There is interface of grafana, add new MySQL with data from first step
